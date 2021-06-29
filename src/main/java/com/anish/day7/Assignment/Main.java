@@ -9,6 +9,6 @@ public class Main {
     public static void main(String[] args) {
      GuiFactory WinFactory1 = Factory.get("win");
      Button button = WinFactory1.createButton("win");
-     button.Print();
+     button.print();
     }
 }

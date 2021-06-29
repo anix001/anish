@@ -6,8 +6,8 @@ import com.anish.day7.Assignment.Gui.WinFactory;
 
 public class Factory {
 
-    public static GuiFactory get(String FactoryType){
-        switch (FactoryType){
+    public static GuiFactory get(String factoryType){
+        switch (factoryType){
             case "win":
                 return new WinFactory();
             case "osx":
