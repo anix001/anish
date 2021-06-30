@@ -14,5 +14,4 @@ public class WinFactory  implements GuiFactory {
         return null;
 
     }
-
 }

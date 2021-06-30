@@ -5,4 +5,5 @@ public class OsxButton implements Button {
     public void print() {
         System.out.println("I am a OSXButton");
     }
+
 }
